@@ -1,0 +1,21 @@
+@keyframes horizontal-hover-in{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width:100%;
+        background: $secondary-color;
+    }
+}
+
+@keyframes horizontal-hover-out{
+    from{
+        width: 100%;
+        background: $secondary-color;
+    }
+
+    to{
+        width:0%;
+    }
+}
